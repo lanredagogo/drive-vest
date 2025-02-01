@@ -13,9 +13,27 @@
         <header>
             <nav class="flex justify-between items-center p-4">
                 <div class="max-w-[36px] max-h-[36px]"><img src="./images/drive-vest-logo-removebg-preview.png" alt="drive vest logo" ></div>
-                <div class="flex gap-4 items-center">
+                <div class="flex gap-4 items-center md:hidden">
                     <div><img src="./images/search.svg" alt="search bar"></div>
                     <div id="menu"><img src="./images/menu.svg" alt="menu bar"></div>
+                </div>
+                <div class="flex justify-center items-center rounded-lg bg-gray-100 hidden md:flex relative">
+                    <img src="./images/search.svg" alt="" class="absolute left-[10px]">
+                    <input
+                      type="text"
+                      placeholder="Search anything"
+                      class="w-full px-10 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                    />
+                </div>
+                <div>
+                  <ul class="flex items-center gap-4">
+                    <li>Articles</li>
+                    <li>FAQ</li>
+                    <li>About</li>
+                    <li>Contact Us</li>
+                    <li><a href="" class="bg-[#E6B027] text-white px-[14px] py-[6px] rounded-[6px]"> Register</a></li>
+                    <li><a href="" class="bg-[#E6B027] text-white px-[14px] py-[6px] rounded-[6px]">Log In</a></li>
+                  </ul>
                 </div>
             </nav>
             <section class="flex mt-4">
